@@ -8,7 +8,7 @@ import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 
-@Document(collection = "producto")
+@Document(collection = "products")
 
 public class Producto {
 	

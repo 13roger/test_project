@@ -41,7 +41,7 @@ public class ProductoController {
         return servicio.crear(producto1);
     }
 	
-	@RequestMapping(produces = MediaType.APPLICATION_XML_VALUE,value= "/producto/obtener", method= RequestMethod.GET)
+	@RequestMapping(value= "/producto/obtener", method= RequestMethod.GET)
 	public List<Producto> obtenerProductos() {
 		return servicio.obtener();
 	}
